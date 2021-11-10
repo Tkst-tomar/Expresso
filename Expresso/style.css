@@ -1,0 +1,50 @@
+*{margin: 0px 0px;padding: 0px 0px;font-family:'Source Sans Pro', sans-serif;}
+:root{
+    --back:#151320;
+    --searchBorder:#d4cac8;
+}
+.container{width: 80vw!important;}
+.borderRight{border-right: 1px solid #2c2846;}
+
+
+
+/* ...................................................................Header................................................................... */
+
+
+
+/* ................................................Upper Header................................................ */
+
+.upperHeader{background-color: var(--back);padding: 25px 0px;border-bottom: 1px solid #42404b;}
+.searchBox{border: 1px solid var(--searchBorder);}
+.allCategories{margin: auto 0px;}
+.allCategories, #icon{color: white;font-size: 12px;}
+.align-center{align-items: center;}
+#inpSearch{width: 100%;background-color: var(--back);outline: none;color: white;font-size: 12px;padding: 0px 30px;height: 40px;}
+.iconSearch{color: white;display: flex;align-items: center;justify-content: center;}
+.iconBox{color: white;display: flex;align-items: center;justify-content: center;position: relative;}
+.iconBox #sub{position: absolute;color:var(--searchBorder);font-size: 10px;padding: 5px 9px;border: 1px solid var(--searchBorder);border-radius: 15px;top: 0%;left: 55%;background-color: var(--back);}
+.iconBox #cart i{border: 1px solid var(--searchBorder);padding: 20px;border-radius: 50px;}
+
+
+/* ................................................Lower Header................................................ */
+
+.lowerHeader{background-color: var(--back);}
+.lowerHeader #menuDisplay{display: none;}
+.lowerHeader #menuDisplay i{color: white;font-size: 20px;font-weight: 600;}
+.lowerHeader nav .navbar-nav{flex-direction: row!important;}
+.lowerHeader nav ul li{padding:5px;margin: 0px 5px;font-size: 13px;font-weight: 600;}
+.lowerHeader nav ul li a i{font-size: 10px;padding: 0px 3px;}
+.lowerHeader nav ul li a{color: white;}
+.lowerHeader .rightIcon{align-items: center;height: 100%;}
+.lowerHeader .rightIcon .wishlist{font-size: 13px;color: white;text-align: right;}
+.lowerHeader .rightIcon .login a{font-size: 13px;color: white;text-decoration: none;}
+
+
+
+
+
+
+
+
+
+
